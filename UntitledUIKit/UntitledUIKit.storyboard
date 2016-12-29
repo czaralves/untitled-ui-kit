@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FE984093-1DD6-41FB-9116-1C1B88D1196C-VC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+<!--iPhone 7-->
+        <scene sceneID="FE984093-1DD6-41FB-9116-1C1B88D1196C-Scene">
+            <objects>
+                <viewController restorationIdentifier="iphone7" storyboardIdentifier="iphone7" id="FE984093-1DD6-41FB-9116-1C1B88D1196C-VC" userLabel="iPhone 7" sceneMemberID="viewController" customClass="APIphone7VC" customModuleProvider="target">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FE984093-1DD6-41FB-9116-1C1B88D1196C-Top"/>
+                        <viewControllerLayoutGuide type="bottom" id="FE984093-1DD6-41FB-9116-1C1B88D1196C-Bottom"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FE984093-1DD6-41FB-9116-1C1B88D1196C" >
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+        <subviews>
+    <view opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES"  contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" userLabel="Rectangle"  >
+        <rect key="frame" x="50" y="85" width="240" height="148"/>
+        <color key="backgroundColor" red="0.847" green="0.847" blue="0.847" alpha="1" colorSpace="calibratedRGB"/>
+        <userDefinedRuntimeAttributes>
+            <userDefinedRuntimeAttribute type="color" keyPath="anBorderColor">
+                <color key="value" red="0.592" green="0.592" blue="0.592" alpha="1" colorSpace="calibratedRGB"/>
+            </userDefinedRuntimeAttribute>
+            <userDefinedRuntimeAttribute type="number" keyPath="anBorderWidth">
+                <real key="value" value="1"/>
+            </userDefinedRuntimeAttribute>
+        </userDefinedRuntimeAttributes>
+                                <connections>
+                                </connections>
+        <constraints>
+        </constraints>
+    </view>
+        </subviews>
+        <constraints>
+            <constraint firstItem="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" firstAttribute="width" constant="240" priority="971" id="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521-width" userLabel="Rectangle-width"/>
+            <constraint firstItem="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" firstAttribute="height" constant="148" priority="972" id="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521-height" userLabel="Rectangle-height"/>
+            <constraint secondAttribute="top" secondItem="FE984093-1DD6-41FB-9116-1C1B88D1196C" firstItem="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" firstAttribute="top" constant="85" priority="973" id="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521-top" userLabel="Rectangle-top"/>
+            <constraint secondAttribute="left" secondItem="FE984093-1DD6-41FB-9116-1C1B88D1196C" firstItem="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" firstAttribute="left" constant="50" priority="974" id="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521-left" userLabel="Rectangle-left"/>
+        </constraints>
+                                <connections>
+                                </connections>
+</view>
+                    <userDefinedRuntimeAttributes>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesNavBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="hidesStatusBar" value="YES"/>
+                    <userDefinedRuntimeAttribute type="boolean" keyPath="lightStatusBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                    <connections>
+                        <outlet property="rectangle" destination="View-9677d9e9-76a2-42de-9c4a-5fcb3da9e521" id="rectangle-FE984093-1DD6-41FB-9116-1C1B88D1196C-Prop"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FE984093-1DD6-41FB-9116-1C1B88D1196C-FR" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0" y="0"/>
+        </scene>
+    </scenes>
+    
+</document>
